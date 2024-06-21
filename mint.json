@@ -1,91 +1,76 @@
 {
   "$schema": "https://mintlify.com/schema.json",
-  "name": "Starter Kit",
+  "name": "docs-verihubs",
   "logo": {
-    "dark": "/logo/dark.svg",
-    "light": "/logo/light.svg"
+    "dark": "/logo/inverted.png",
+    "light": "/logo/regular.png"
   },
   "favicon": "/favicon.svg",
   "colors": {
-    "primary": "#0D9373",
-    "light": "#07C983",
-    "dark": "#0D9373",
+    "primary": "#20255e",
+    "light": "#1a1e4b",
+    "dark": "#20255e",
     "anchors": {
-      "from": "#0D9373",
-      "to": "#07C983"
+      "from": "#20255e",
+      "to": "#1a1e4b"
     }
   },
   "topbarLinks": [
     {
-      "name": "Support",
-      "url": "mailto:hi@mintlify.com"
+      "name": "Jadwalkan Demo Gratis",
+      "url": "https://verihubs.com/jadwalkan-demo-gratis"
     }
   ],
   "topbarCtaButton": {
-    "name": "Dashboard",
-    "url": "https://dashboard.mintlify.com"
+    "name": "Lihat Produk",
+    "url": "https://verihubs.com#product-list"
+  },
+  "primaryTab": {
+    "name": "Home"
   },
   "tabs": [
     {
-      "name": "API Reference",
-      "url": "api-reference"
-    }
-  ],
-  "anchors": [
-    {
-      "name": "Documentation",
-      "icon": "book-open-cover",
-      "url": "https://mintlify.com/docs"
+      "name": "Guidelines",
+      "url": "guidelines"
     },
     {
-      "name": "Community",
-      "icon": "slack",
-      "url": "https://mintlify.com/community"
-    },
-    {
-      "name": "Blog",
-      "icon": "newspaper",
-      "url": "https://mintlify.com/blog"
+      "name": "API Documentation",
+      "url": "api-documentation"
     }
   ],
+  "anchors": [],
+  "modeToggle": {
+    "default": "dark"
+  },
   "navigation": [
     {
-      "group": "Get Started",
+      "group": "Authentication",
       "pages": [
-        "introduction",
-        "quickstart",
-        "development"
+        "authentication/sign-up",
+        "authentication/sign-in",
+        "authentication/multiple-company-access"
       ]
     },
     {
-      "group": "Essentials",
+      "group": "Platform",
       "pages": [
-        "essentials/markdown",
-        "essentials/code",
-        "essentials/images",
-        "essentials/settings",
-        "essentials/navigation",
-        "essentials/reusable-snippets"
+        "platform/sidebar-menu",
+        "platform/dashboard",
+        "platform/profile"
       ]
     },
     {
-      "group": "API Documentation",
+      "group": "Policies",
       "pages": [
-        "api-reference/introduction"
-      ]
-    },
-    {
-      "group": "Endpoint Examples",
-      "pages": [
-        "api-reference/endpoint/get",
-        "api-reference/endpoint/create",
-        "api-reference/endpoint/delete"
+        "policies/rate-limit",
+        "policies/service-level-agreement",
+        "policies/contact-us",
+        "policies/api-security-checklist"
       ]
     }
   ],
   "footerSocials": {
-    "x": "https://x.com/mintlify",
-    "github": "https://github.com/mintlify",
-    "linkedin": "https://www.linkedin.com/company/mintsearch"
+    "instagram": "https://www.instagram.com/verihubs/",
+    "linkedin": "https://www.linkedin.com/company/verihubs/"
   }
 }
